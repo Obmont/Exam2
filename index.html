@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css"/>
+    <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+    <h1>
+        Exam 2
+    </h1>
+    
+    <hr>
+    
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please select an Option</option>
+        <option>Display Categories</option>
+        <option>Add Product Category</option>
+        <option>Edit Category Description</option>
+        <option>Delete Category</option>
+        <option>About</option>
+    </select>
+    
+    <hr>
+    <section id="spacing"></section>
+    
+    <section id="section1">
+        <h2>Dispaly Categories</h2>
+        <p>Below is a list of all categories:</p>
+        
+        <hr>
+        
+        <br>
+        
+        <label id="result1">If this appears, the app failed to retrieve the category list.</label>
+    </section>
+    
+    <section id="section2">
+        <h2>Add Product Category</h2>
+        <p>Please enter the information for the new category:</p>
+        
+        <br>
+        
+        <p>Category Name:</p>
+        <input type="text" id="catname">
+        <br>
+        <p>Category Description:</p>
+        <input type="text" id="catdescription">
+        <br>
+        <br>
+        
+        <button onclick="CreateCategory()">Create Category</button>
+        <hr>
+        <br>
+        <label id="result2">Category creation Success or Failure displayed here.</label>
+    </section>
+    
+    <section id="section3">
+        <h2>Edit Category Description</h2>
+        <p>Please enter an Category ID followed by the changed Category Description:</p>
+        
+        <br>
+        
+        <p>Category ID:</p>
+        <input type="text" id="catid">
+        <br>
+        <p>Category Description:</p>
+        <input type="text" id="updatedcatdescription">
+        <br>
+        <br>
+        
+        <button onclick="EditCategoryDescription()">Update Description</button>
+        
+        <hr>
+        
+        <br>
+        
+        <label id="result3">Update Success or Failure displayed here.</label>
+        
+    </section>
+    
+    <section id="section4">
+        <h2>Delete Category</h2>
+        <p>Please enter the ID of the category you want to delete:</p>
+        <input type="text" id="catdelete">
+        
+        <br>
+        <br>
+        
+        <button onclick="makesure()">Delete</button>
+        <hr>
+        
+        <br>
+        
+        <label id="result4">Deletion Success or Failure displayed here.</label>
+    </section>
+    
+    <section id="section5">
+        <h2>About this Website</h2>
+        <p>Information about this website</p>
+        <hr>
+        <br>
+        <p>This website was created by Aaron Mahan to complete a project for an exam in IS 491 Mobile Applications Developement. Thanks for a great semester Dr. Rivera!</p>
+        <br>
+        <p>Aaron Mahan</p>
+        <img src=images/aaron.jpg alt="aaron">
+        
+        
+    </section>
+    </div>
+</body>
+</html>

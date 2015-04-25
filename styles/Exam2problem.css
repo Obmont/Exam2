@@ -1,0 +1,16 @@
+html,
+body {margin: 0; padding: 0; height: 100%;}
+
+#wrapper {min-height: 100%; position: relative;}
+
+#spacing {height: 75%; width: 600px;}
+
+#section1 {visibility: hidden; background-color: #FFFF94; position: absolute; height: 75%; width: 600px; overflow: scroll; padding: 10px; padding-bottom: 50px;}
+
+#section2 {visibility: hidden; background-color: #FFFF94; position: absolute; height: 75%; width: 600px; overflow: scroll; padding: 10px; padding-bottom: 50px;}
+
+#section3 {visibility: hidden; background-color: #FFFF94; position: absolute; height: 75%; width: 600px; overflow: scroll; padding: 10px; padding-bottom: 50px;}
+
+#section4 {visibility: hidden; background-color: #FFFF94; position: absolute; height: 75%; width: 600px; overflow: scroll; padding: 10px; padding-bottom: 50px;}
+
+#section5 {visibility: hidden; background-color: #FFFF94; position: absolute; height: 75%; width: 600px; overflow: scroll; padding: 10px; padding-bottom: 50px;}
